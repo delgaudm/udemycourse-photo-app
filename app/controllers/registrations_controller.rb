@@ -1,4 +1,4 @@
-class RegistrationsController < Device::RegistrationsController
+class RegistrationsController < Devise::RegistrationsController
   
   def create
     # we are writing a custom create that handles both the registrations
