@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :images
   devise_for :users , :contollers => { :registrations => 'registrations'}
   root 'welcome#index'
 
